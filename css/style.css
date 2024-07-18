@@ -84,33 +84,42 @@ article {
     display: grid;
     grid-template-areas: "titulo " "navega " "foto1 " "foto2 " "foto3 " "foto4 ";
   }
+
   h1 {
     grid-area: titulo;
   }
+
   article {
     grid-area: navega;
   }
+
   .fotoN1 {
     grid-area: foto1;
   }
+
   .fotoN2 {
     grid-area: foto3;
   }
+
   .fotoN3 {
     grid-area: foto2;
   }
+
   .fotoN4 {
     grid-area: foto4;
   }
+
   img {
     margin-top: 2px;
     margin-bottom: 2px;
     margin-left: 10%;
     margin-right: 10%;
   }
+
   .fotoN1 {
     margin-top: 60px;
   }
+
   nav {
     text-align: center;
   }
