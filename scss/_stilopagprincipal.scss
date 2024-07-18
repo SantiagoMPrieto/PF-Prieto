@@ -1,7 +1,7 @@
 body {
     display: inline-flex;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: $fondo-oscuro;
+    background-color: $color-titulo;
     padding: 0px;
     margin: 0px;
     width: 100%;
@@ -39,9 +39,13 @@ h1 {
     text-decoration: none;
 }
 
-a {
+@mixin formalink {
     text-decoration: none;
     color: black;
+}
+
+a {
+    @include formalink;
 }
 
 img {
