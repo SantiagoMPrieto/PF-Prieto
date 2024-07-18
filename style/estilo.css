@@ -17,12 +17,12 @@ width: 40%;
 }
 
 article {
-  display: block;
+
   margin-top: 0%;
   margin-left: 0%;
   margin-bottom: 0%;
 
-  border: 100px; 
+   
   border-right: solid white;
   border-top: solid white;
   border-bottom: solid white;
