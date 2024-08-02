@@ -1,0 +1,78 @@
+body {
+    display: inline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(161, 222, 169);
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    align-items: normal;
+  }
+  
+  h1 {
+    display: inline;
+    justify-self: center;
+    font-size: 30px;
+  
+    background-color: darkcyan;
+    text-decoration: none;
+    display: block;
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-bottom: 0%;
+  
+  }
+  
+  h2 {
+    justify-self: center;
+  
+  }
+  
+
+
+  
+  
+  
+  
+  a {
+    text-decoration: none;
+    color: black;
+  
+  }
+
+  
+  
+  img {
+    width: 7cm;
+    justify-self: center;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    grid-area: titulo;
+  }
+  
+  h2 {
+    grid-area: subt;
+  }
+  
+   
+    body {
+      display: grid;
+      grid-template-areas:
+        "titulo "
+        "subt "
+        "adi "
+        "nik "
+        "pum "
+        "umb "
+    }
+  
+    img {
+      justify-content: center;
+  
+    }
+  
+    h3 {
+      justify-self: center;
+    }
+  
