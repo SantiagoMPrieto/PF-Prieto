@@ -62,7 +62,9 @@ h2 {
   grid-area: subt;
 }
 
-@media screen and (max-width: 768px) {
+  
+  
+@media screen and (max-width: 500px) {
   body {
     display: grid;
     grid-template-areas:
@@ -73,13 +75,19 @@ h2 {
       "pum "
       "umb "
   }
+}
 
-  img {
-    justify-content: center;
+img {
+  justify-content: center;
 
-  }
+}
 
-  h3 {
-    justify-self: center;
-  }
+h3 {
+  justify-self: center;
+}
+p{
+  align-self: center;
+  margin-left: 5%;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
 }
