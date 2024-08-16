@@ -54,25 +54,36 @@ body {
   h2 {
     grid-area: subt;
   }
-  
+
    
     body {
       display: grid;
       grid-template-areas:
-        "titulo "
-        "subt "
-        "adi "
-        "nik "
-        "pum "
-        "umb "
+        "titulo  titulo " 
+        "subt  subt "
+        "adi  text1"
+        "nik  text2"
+        "pum  text3"
+        "umb  text4"
+        
     }
   
-    img {
-      justify-content: center;
-  
+    p{
+      margin-left: 5%;
+      align-self: center;
+      text-align: center;
     }
   
+    @media screen and (max-width: 500px) {
+      body {
+        display: grid;
+        grid-template-areas:
+        "titulo"
+        "subt"
+      }
+    }
+
     h3 {
-      justify-self: center;
+      align-self: center;
+      text-align: center;
     }
-  
