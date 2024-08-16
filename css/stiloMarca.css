@@ -91,3 +91,11 @@ p{
   font-family: 'Times New Roman', Times, serif;
   font-size: large;
 }
+
+textarea{
+ margin-left: 10%;
+}
+
+input{
+  margin-left: 50%;
+}

@@ -44,7 +44,8 @@ body {
   img {
     width: 7cm;
     justify-self: center;
-    margin-bottom: 20px;
+    align-self: center ;
+    margin-left: 5%;
   }
   
   h1 {
@@ -55,23 +56,70 @@ body {
     grid-area: subt;
   }
 
-   
+  .arriba{
+    grid-area: tope;
+  }
+
+  .sesenta{
+    grid-area: milnuevese;
+  }
+  
+  .cero{
+    grid-area: dosmil;
+  }
+
+  .diez{
+    grid-area: ten;
+  }
+
+  .viejos{
+    grid-area: foto1;
+  }
+
+  .medios{
+    grid-area: foto2;
+  }
+
+  .nuevos{
+    grid-area: foto3;
+  }
+
+  .futu{
+    grid-area: foto4;
+  }
+.textouno{
+  grid-area: text1;
+}
+.textodos{
+  grid-area: text2;
+}
+.textotres{
+  grid-area: text3;
+}
+.textocuatro{
+  grid-area: text4;
+}
     body {
       display: grid;
       grid-template-areas:
-        "titulo  titulo " 
-        "subt  subt "
-        "adi  text1"
-        "nik  text2"
-        "pum  text3"
-        "umb  text4"
+        "titulo titulo " 
+        "subt subt "
+        "tope tope"
+        "foto1 text1"
+        "milnuevese milnuevese"
+        "foto2 text2"
+        "dosmil dosmil"
+        "foto3 text3"
+        "ten ten"
+        "foto4 text4"
         
     }
   
     p{
-      margin-left: 5%;
       align-self: center;
       text-align: center;
+      align-items: center;
+      justify-content: center;
     }
   
     @media screen and (max-width: 500px) {
@@ -80,10 +128,32 @@ body {
         grid-template-areas:
         "titulo"
         "subt"
+        "tope"
+        "foto1"
+        "text1"
+        "milnuevese"
+        "foto2"
+        "text2"
+        "dosmil"
+        "foto3"
+        "text3"
+        "ten"
+        "foto4"
+        "text4"
       }
     }
 
     h3 {
       align-self: center;
       text-align: center;
+    }
+
+    img{
+      align-content: center;
+    }
+
+    p{
+      font-size: large;
+      margin-left: 5%;
+      align-self: center;
     }
