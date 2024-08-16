@@ -1,7 +1,7 @@
 body {
   display: inline-flex;
   font-family: Georgia, "Times New Roman", Times, serif;
-  background-color:rgb(161, 222, 169);
+  background-color: rgb(161, 222, 169);
   padding: 0px;
   margin: 0px;
   width: 100%;
@@ -39,10 +39,12 @@ h4 {
   text-align: center;
   align-self: center;
 }
-div{
+
+div {
   align-self: center;
   text-align: center;
 }
+
 .MenuDeCostado {
   text-decoration: none;
 }
@@ -94,26 +96,31 @@ section {
 .DesBotNik {
   grid-area: desc2;
 }
+
 .DesbotUmb {
   grid-area: desc3;
 }
+
 .DesBotPum {
   grid-area: desc4;
 }
+
 @media (min-width:566px) and (max-width: 768px) {
-  body{
-    display:grid;
+  body {
+    display: grid;
     grid-template-areas: "titulo titulo" "navega navega" "foto1 desc1" "foto2 desc2" "foto3 desc3" "foto4 desc4";
   }
 
 }
+
 @media screen and (max-width: 566px) {
   body {
     display: grid;
-    grid-template-areas: "titulo " "navega "  "foto1 " "desc1" "foto2 " "desc2" "foto3" "desc3" "foto4" "desc4";
+    grid-template-areas: "titulo " "navega " "foto1 " "desc1" "foto2 " "desc2" "foto3" "desc3" "foto4" "desc4";
   }
-  img{
-   padding-left: 13%;
+
+  img {
+    padding-left: 13%;
   }
 
   h1 {

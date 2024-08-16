@@ -1,7 +1,7 @@
 body {
   display: inline;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  background-color:rgb(161, 222, 169);
+  background-color: rgb(161, 222, 169);
   padding: 0px;
   margin: 0px;
   width: 100%;
@@ -62,8 +62,8 @@ h2 {
   grid-area: subt;
 }
 
-  
-  
+
+
 @media screen and (max-width: 500px) {
   body {
     display: grid;
@@ -85,17 +85,18 @@ img {
 h3 {
   justify-self: center;
 }
-p{
+
+p {
   align-self: center;
   margin-left: 5%;
   font-family: 'Times New Roman', Times, serif;
   font-size: large;
 }
 
-textarea{
- margin-left: 10%;
+textarea {
+  margin-left: 10%;
 }
 
-input{
+input {
   margin-left: 50%;
 }

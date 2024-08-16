@@ -1,159 +1,167 @@
 body {
-    display: inline;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: rgb(161, 222, 169);
-    padding: 0px;
-    margin: 0px;
-    width: 100%;
-    align-items: normal;
-  }
-  
-  h1 {
-    display: inline;
-    justify-self: center;
-    font-size: 30px;
-  
-    background-color: darkcyan;
-    text-decoration: none;
-    display: block;
-    margin-top: 0%;
-    margin-left: 0%;
-    margin-bottom: 0%;
-  
-  }
-  
-  h2 {
-    justify-self: center;
-  
-  }
-  
+  display: inline;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: rgb(161, 222, 169);
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  align-items: normal;
+}
+
+h1 {
+  display: inline;
+  justify-self: center;
+  font-size: 30px;
+
+  background-color: darkcyan;
+  text-decoration: none;
+  display: block;
+  margin-top: 0%;
+  margin-left: 0%;
+  margin-bottom: 0%;
+
+}
+
+h2 {
+  justify-self: center;
+
+}
 
 
-  
-  
-  
-  
-  a {
-    text-decoration: none;
-    color: black;
-  
-  }
 
-  
-  
-  img {
-    width: 7cm;
-    justify-self: center;
-    align-self: center ;
-    margin-left: 5%;
-  }
-  
-  h1 {
-    grid-area: titulo;
-  }
-  
-  h2 {
-    grid-area: subt;
-  }
 
-  .arriba{
-    grid-area: tope;
-  }
 
-  .sesenta{
-    grid-area: milnuevese;
-  }
-  
-  .cero{
-    grid-area: dosmil;
-  }
 
-  .diez{
-    grid-area: ten;
-  }
 
-  .viejos{
-    grid-area: foto1;
-  }
+a {
+  text-decoration: none;
+  color: black;
 
-  .medios{
-    grid-area: foto2;
-  }
+}
 
-  .nuevos{
-    grid-area: foto3;
-  }
 
-  .futu{
-    grid-area: foto4;
-  }
-.textouno{
+
+img {
+  width: 7cm;
+  justify-self: center;
+  align-self: center;
+  margin-left: 5%;
+}
+
+h1 {
+  grid-area: titulo;
+}
+
+h2 {
+  grid-area: subt;
+}
+
+.arriba {
+  grid-area: tope;
+}
+
+.sesenta {
+  grid-area: milnuevese;
+}
+
+.cero {
+  grid-area: dosmil;
+}
+
+.diez {
+  grid-area: ten;
+}
+
+.viejos {
+  grid-area: foto1;
+}
+
+.medios {
+  grid-area: foto2;
+}
+
+.nuevos {
+  grid-area: foto3;
+}
+
+.futu {
+  grid-area: foto4;
+}
+
+.textouno {
   grid-area: text1;
 }
-.textodos{
+
+.textodos {
   grid-area: text2;
 }
-.textotres{
+
+.textotres {
   grid-area: text3;
 }
-.textocuatro{
+
+.textocuatro {
   grid-area: text4;
 }
-    body {
-      display: grid;
-      grid-template-areas:
-        "titulo titulo " 
-        "subt subt "
-        "tope tope"
-        "foto1 text1"
-        "milnuevese milnuevese"
-        "foto2 text2"
-        "dosmil dosmil"
-        "foto3 text3"
-        "ten ten"
-        "foto4 text4"
-        
-    }
-  
-    p{
-      align-self: center;
-      text-align: center;
-      align-items: center;
-      justify-content: center;
-    }
-  
-    @media screen and (max-width: 500px) {
-      body {
-        display: grid;
-        grid-template-areas:
-        "titulo"
-        "subt"
-        "tope"
-        "foto1"
-        "text1"
-        "milnuevese"
-        "foto2"
-        "text2"
-        "dosmil"
-        "foto3"
-        "text3"
-        "ten"
-        "foto4"
-        "text4"
-      }
-    }
 
-    h3 {
-      align-self: center;
-      text-align: center;
-    }
+body {
+  display: grid;
+  grid-template-areas:
+    "titulo titulo "
+    "subt subt "
+    "tope tope"
+    "foto1 text1"
+    "milnuevese milnuevese"
+    "foto2 text2"
+    "dosmil dosmil"
+    "foto3 text3"
+    "ten ten"
+    "foto4 text4"
 
-    img{
-      align-content: center;
-    }
+}
 
-    p{
-      font-size: large;
-      margin-left: 5%;
-      align-self: center;
-    }
+p {
+  align-self: center;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    display: grid;
+    grid-template-areas:
+      "titulo"
+      "subt"
+      "tope"
+      "foto1"
+      "text1"
+      "milnuevese"
+      "foto2"
+      "text2"
+      "dosmil"
+      "foto3"
+      "text3"
+      "ten"
+      "foto4"
+      "text4"
+  }
+}
+
+h3 {
+  align-self: center;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 5%;
+}
+
+img {
+  align-content: center;
+}
+
+p {
+  font-size: large;
+  margin-left: 5%;
+  align-self: center;
+  font-family: 'Times New Roman', Times, serif;
+}
